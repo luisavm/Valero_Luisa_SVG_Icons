@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 {
+margin: 0;
+padding: 0;
+}
+
+img {
+border: none;
+margin: 0;
+padding: 0;
+}
+
+
+body {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #454545;
+}
+
+
+.hidden
+{
+  display: none;
+}
+
+
+.container{
+  margin: 0 auto;
+	width: 960px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.topBar{
+  	margin-top: 30px;
+  	margin-left: 86px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+  }
+
+#oddOrAdorable{
+font-family: 'Oswald', Helvetica, Arial, sans-serif;
+font-size: 35px;
+color: #fff;
+padding: 10px;
+text-align: center;
+letter-spacing: 2px;
+margin-right: 50px;
+line-height: 50px;
+
+}
+
+#introduction {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+
+}
+
+.topandBot
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+  /* width: 100%; */
+}
+
+.catLanguage
+{
+  margin-left: -80px;
+  width: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.catLanguage img
+{
+  width: 172px;
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 30px;
+  display: block;
+
+}
+
+.catEmotions
+{
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 70px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.description
+{
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+  margin-left: 80px;
+  margin-right: 10px;
+  width: 210px;
+}
+
+/* transitions to change the icons' appearances */
+
+/* Relaxed */
+#catIcon1:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #65aabc;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+/* Playful */
+#catIcon2:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #78b8ba;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+/* Happiness */
+#catIcon3:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #d1a7bb;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+/* Glad */
+#catIcon4:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #fdd8a1;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+/* Comfortable */
+#catIcon5:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #84bb78;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+
+/* Worried*/
+#catIcon6:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #4a9dba;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+/* Bored*/
+#catIcon7:hover
+ {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #f9af6a;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+/* Sad*/
+#catIcon8:hover
+ {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #dc817c;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+/* Terrified*/
+#catIcon9:hover
+ {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #98749a;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+/* Frightened*/
+#catIcon10:hover
+ {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  border:5px solid #85bab2;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+@media screen and (min-width: 640px)
+{
+#oddOrAdorable, #introduction, #catIcon1, #catIcon2, #catIcon3, #catIcon4, #catIcon5, #catIcon6,
+#catIcon7, #catIcon8, #catIcon9, #catIcon10 {display: block;}
+}
+
+@media screen and (min-width: 640px)
+{
+.catLanguage, .catEmotions { display:block;}
+
+}
+
+@media screen and (min-width: 640px)
+{
+ img {display: block;}
+}
