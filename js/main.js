@@ -59,7 +59,7 @@
 	//Terrified message
 	var catIcons = document.querySelector('#catIcon9');
 	catIcons.addEventListener("click", function(){
-	alert("Cat is bored");
+	alert("Cat is terrified");
 	})
 
 	// Frightened message
